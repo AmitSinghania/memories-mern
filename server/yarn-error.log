@@ -1,0 +1,43 @@
+Arguments: 
+  /home/akshat/.nvm/versions/node/v14.16.1/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/akshat/.nvm/versions/node/v14.16.1/bin:/home/akshat/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/akshat/.yarn/bin:/home/akshat/.yarn/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/akshat/Documents/amitsinghania/memories_mern/server/package.json: Unexpected string in JSON at position 107
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type":"module"
+    "scripts": {
+      "start": "nodemon index .js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
